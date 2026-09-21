@@ -119,7 +119,10 @@ public class PlayerMovement : MonoBehaviour
 
         jumpsRemaining--;
 
-        jumpParticleSystem.Play();
+        if (jumpsRemaining == maxJumps - 1)
+        {
+            jumpParticleSystem.Play();
+        }
 
         int randomJumpSound = UnityEngine.Random.Range(0, jumpSounds.Length);
         audioSource.PlayOneShot(jumpSounds[randomJumpSound]);
