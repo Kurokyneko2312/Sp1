@@ -138,12 +138,12 @@ TextureImporter:
       name: cabin_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 95
-        width: 127
-        height: 98
+        x: 19
+        y: 96
+        width: 125
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: cabin_1
       rect:
         serializedVersion: 2
-        x: 159
-        y: 143
-        width: 34
-        height: 50
+        x: 160
+        y: 144
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: cabin_2
       rect:
         serializedVersion: 2
-        x: 207
-        y: 111
-        width: 130
-        height: 79
+        x: 208
+        y: 112
+        width: 111
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: cabin_3
       rect:
         serializedVersion: 2
-        x: 27
-        y: 47
-        width: 12
-        height: 44
+        x: 28
+        y: 48
+        width: 10
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -226,12 +226,12 @@ TextureImporter:
       name: cabin_4
       rect:
         serializedVersion: 2
-        x: 57
-        y: 47
-        width: 12
-        height: 44
+        x: 58
+        y: 48
+        width: 10
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -248,12 +248,12 @@ TextureImporter:
       name: cabin_5
       rect:
         serializedVersion: 2
-        x: 91
-        y: 47
-        width: 12
-        height: 44
+        x: 92
+        y: 48
+        width: 10
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: cabin_6
       rect:
         serializedVersion: 2
-        x: 121
-        y: 47
-        width: 12
-        height: 44
+        x: 122
+        y: 48
+        width: 10
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -292,12 +292,12 @@ TextureImporter:
       name: cabin_7
       rect:
         serializedVersion: 2
-        x: 159
-        y: 79
-        width: 34
-        height: 50
+        x: 160
+        y: 80
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -314,12 +314,12 @@ TextureImporter:
       name: cabin_8
       rect:
         serializedVersion: 2
-        x: 207
-        y: 47
-        width: 129
-        height: 65
+        x: 208
+        y: 48
+        width: 127
+        height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -336,12 +336,12 @@ TextureImporter:
       name: cabin_9
       rect:
         serializedVersion: 2
-        x: 155
-        y: 47
-        width: 10
-        height: 18
+        x: 156
+        y: 48
+        width: 8
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -358,12 +358,12 @@ TextureImporter:
       name: cabin_10
       rect:
         serializedVersion: 2
-        x: 187
-        y: 47
-        width: 10
-        height: 18
+        x: 188
+        y: 48
+        width: 8
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -383,9 +383,9 @@ TextureImporter:
         x: 0
         y: 0
         width: 352
-        height: 20
+        height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -402,7 +402,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 94e13da4497ac44bb993917819061d3d
     internalID: 0
     vertices: []
     indices: 
@@ -410,7 +410,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       cabin_0: 4268214376947299466
       cabin_1: 8362259854150337007
