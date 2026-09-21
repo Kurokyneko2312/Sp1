@@ -1788,6 +1788,7 @@ MonoBehaviour:
   jump: {fileID: -5592597935715518588, guid: 332fad82f617ec84b971fd8d55755b0a, type: 3}
   moveSpeed: 300
   jumpForce: 400
+  maxJumps: 2
   leftFoot: {fileID: 1538042025}
   rightFoot: {fileID: 1383236581}
   whatIsGround:
@@ -1800,6 +1801,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 93c8671f6e26548488ed134b37ab3242, type: 3}
   - {fileID: 8300000, guid: 63a2ad2e17fffac4ca2eaa08041018f0, type: 3}
   jumpParticleSystem: {fileID: 529597161}
+  dash: {fileID: 0}
+  dashForce: 15
+  dashDuration: 0.15
 --- !u!95 &424692430
 Animator:
   serializedVersion: 7
@@ -6150,6 +6154,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2200331671856164054, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
+      propertyPath: dash
+      value: 
+      objectReference: {fileID: 1071397344098187997, guid: 332fad82f617ec84b971fd8d55755b0a, type: 3}
     - target: {fileID: 3332808923367303362, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: m_Name
       value: Player.2
