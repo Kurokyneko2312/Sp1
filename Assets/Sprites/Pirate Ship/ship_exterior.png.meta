@@ -306,10 +306,10 @@ TextureImporter:
       name: ship_exterior_6
       rect:
         serializedVersion: 2
-        x: 143
-        y: 47
+        x: 479
+        y: 147
         width: 50
-        height: 136
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,12 +328,12 @@ TextureImporter:
       name: ship_exterior_7
       rect:
         serializedVersion: 2
-        x: 207
-        y: 127
-        width: 55
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 479
+        y: 116
+        width: 49
+        height: 32
+      alignment: 9
+      pivot: {x: 0.49999943, y: 0.43044308}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
