@@ -9645,7 +9645,7 @@ PrefabInstance:
       objectReference: {fileID: 410612116}
     - target: {fileID: 7865728275129637609, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: strawberriesToCollect
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

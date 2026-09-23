@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 2 RIKTIGA.unity
     guid: 865d961720dcd43849c26011fbdff015
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: e6728c7889dd5468aaf78d687606584f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
