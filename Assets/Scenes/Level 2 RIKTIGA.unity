@@ -38606,7 +38606,7 @@ GameObject:
   - component: {fileID: 424692432}
   - component: {fileID: 424692433}
   m_Layer: 9
-  m_Name: Player
+  m_Name: Player.2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44766,8 +44766,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 963948636854960983, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 963948636854960983, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: m_SleepingMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 963948636854960983, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2123874770060286508, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: m_LocalScale.x
@@ -44791,15 +44799,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2123874770060286508, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2123874770060286508, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2123874770060286508, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2123874770060286508, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -44819,7 +44827,11 @@ PrefabInstance:
       objectReference: {fileID: 1071397344098187997, guid: 332fad82f617ec84b971fd8d55755b0a, type: 3}
     - target: {fileID: 3332808923367303362, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: m_Name
-      value: Player.2
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3332808923367303362, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6571032803951525842, guid: 96f2300e33384e74ebd7ff29280af1f5, type: 3}
       propertyPath: m_Controller
@@ -117706,7 +117718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f15e43a5d386a04dacd3544c0aebf5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StrawberryPickup
-  strawberryBomb: {fileID: 0}
 --- !u!58 &1783615599
 CircleCollider2D:
   m_ObjectHideFlags: 0
