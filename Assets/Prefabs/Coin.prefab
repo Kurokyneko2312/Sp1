@@ -165,3 +165,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f15e43a5d386a04dacd3544c0aebf5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StrawberryPickup
+  strawberryBomb: {fileID: 1232779568496370830, guid: f332d6493768099409ae4e110bf1baaa, type: 3}
