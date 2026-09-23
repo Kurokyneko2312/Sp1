@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class QuestChecker: MonoBehaviour
 {
-    [SerializeField] private GameObject panel, finishedText, unfinishedText;
+   // [SerializeField] private GameObject panel, finishedText, unfinishedText;
     [SerializeField] private int levelIndex;
 
     private Animator anim;
@@ -18,15 +18,15 @@ public class QuestChecker: MonoBehaviour
         {
             if(other.GetComponent<PlayerQuest>().GetStrawberries() >= other.GetComponent<PlayerQuest>().GetStrawberriesToCollect())
             {
-                panel.SetActive(true);
-                finishedText.SetActive(true);
-                anim.SetTrigger("Flag");
-                Invoke(nameof(LoadNextLevel), 3.0f);
+               // panel.SetActive(true);
+               // finishedText.SetActive(true);
+               // anim.SetTrigger("Flag");
+                Invoke(nameof(LoadNextLevel), 0f);
             }
             else
             {
-                panel.SetActive(true);
-                unfinishedText.SetActive(true);
+              //  panel.SetActive(true);
+                //unfinishedText.SetActive(true);
             }
         }
     }
@@ -36,10 +36,10 @@ public class QuestChecker: MonoBehaviour
         SceneManager.LoadScene(levelIndex);
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+   private void OnTriggerExit2D(Collider2D collision)
     {
-        panel.SetActive(false);
-        finishedText.SetActive(false);
-        unfinishedText.SetActive(false);
+       // panel.SetActive(false);
+        //finishedText.SetActive(false);
+       // unfinishedText.SetActive(false);
     }
 }
