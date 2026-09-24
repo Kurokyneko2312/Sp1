@@ -2623,7 +2623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee1688eb47ee38341a76785796cc7428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestChecker
-  levelIndex: 4
+  levelIndex: 5
 --- !u!61 &220629403
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -45763,7 +45763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee1688eb47ee38341a76785796cc7428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuestChecker
-  levelIndex: 3
+  levelIndex: 4
 --- !u!1 &1230370601
 GameObject:
   m_ObjectHideFlags: 0
